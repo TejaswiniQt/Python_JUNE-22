@@ -1,0 +1,9 @@
+# create a class
+
+class mobile_phone:
+    def __init__(self,ram,camera):
+        self.ram = ram
+        self.camera = camera
+
+x = mobile_phone('8gb','50MP')
+print(x.ram,x.camera)

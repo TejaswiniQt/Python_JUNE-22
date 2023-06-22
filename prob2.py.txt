@@ -1,0 +1,12 @@
+# Example - 2
+
+class mobile_phone:
+    camera = '50MP'
+    ram = '8GB'
+    
+    def display(self):
+        print(self.camera)
+        print(self.ram)
+
+x = mobile_phone()
+x.display()
